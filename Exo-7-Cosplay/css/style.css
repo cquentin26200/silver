@@ -1,0 +1,135 @@
+/*GLOBAL*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: url("../img/bg.jpg");
+  font-size: 1.6em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+/*VARIABLE*/
+/*@IMPORT*/
+header {
+  text-align: center;
+  line-height: 1.5em;
+  color: white;
+}
+header > h3 {
+  color: red;
+  font-size: 2em;
+  font-family: "Coiny", cursive;
+  margin-top: 0px;
+}
+header > img {
+  width: 13%;
+}
+header a {
+  color: white;
+}
+header a:hover {
+  color: red;
+}
+header nav h3 a {
+  color: black;
+}
+header nav > ul {
+  justify-content: center;
+  display: flex;
+  background-color: red;
+}
+header nav > ul > li {
+  padding: 20px 45px;
+}
+header nav > ul > li:hover {
+  background-color: greenyellow;
+}
+header nav > ul > li:hover > ul {
+  display: flex;
+}
+header nav > ul > li > ul {
+  display: none;
+  position: absolute;
+  padding-bottom: 3em;
+  top: 240px;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  background: #6bb763;
+  background: #97ff89;
+  background: #c7f785;
+  background: -moz-linear-gradient(top, #c7f785 1%, #7add80 49%, #5faa68 91%);
+  background: -webkit-linear-gradient(top, #c7f785 1%, #7add80 49%, #5faa68 91%);
+  background: linear-gradient(to bottom, #c7f785 1%, #7add80 49%, #5faa68 91%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c7f785", endColorstr="#5faa68", GradientType=0);
+}
+header nav > ul > li > ul > li {
+  padding: 0 5%;
+  padding-top: 3%;
+}
+header nav > ul > li > ul > li h3 {
+  color: black;
+  font-size: 1.2em;
+}
+header li {
+  text-transform: capitalize;
+}
+header li h3 {
+  color: white;
+}
+header li ul {
+  text-transform: capitalize;
+}
+
+main {
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+main .gallery h3 {
+  color: black;
+}
+main h1 {
+  text-align: center;
+}
+main img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+footer {
+  margin-top: 10px;
+  font-size: 1em;
+  text-align: center;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #232323;
+  background-color: #232323;
+  color: white;
+  line-height: 5px;
+}
+footer img {
+  width: 7%;
+  padding-top: 20px;
+}
+footer span {
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,89 @@
+header {
+    text-align: center;
+    line-height: 1.5em;
+    color: white;
+
+    >h3 {
+        color: red;
+        font-size: 2em;
+        font-family: 'Coiny', cursive;
+        margin-top: 0px;
+    }
+
+    >img {
+        width: 13%;
+    }
+
+    a {
+        color: $white-color;
+
+        &:hover {
+            color: $red-color;
+        }
+    }
+
+    nav {
+        h3 {
+            a {
+                color: $black-color;
+            }
+        }
+
+        >ul {
+            justify-content: center;
+            display: flex;
+
+            >li {
+                padding: 20px 45px;
+
+                &:hover {
+                    background-color: greenyellow;
+                    >ul {
+                        display: flex;
+                    }
+                }
+
+                >ul {
+                    display: none;
+                    position: absolute;
+                    padding-bottom: 3em;
+                    top: 240px;
+                    left: 0;
+                    width: 100%;
+                    justify-content: center;
+                    background: #6bb763;
+                    background: #97ff89;
+                    background: #c7f785;
+                    background: -moz-linear-gradient(top, #c7f785 1%, #7add80 49%, #5faa68 91%);
+                    background: -webkit-linear-gradient(top, #c7f785 1%, #7add80 49%, #5faa68 91%);
+                    background: linear-gradient(to bottom, #c7f785 1%, #7add80 49%, #5faa68 91%);
+                    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c7f785', endColorstr='#5faa68', GradientType=0);
+
+                    >li {
+                        padding: 0 5%;
+                        padding-top: 3%;
+
+                        h3 {
+                            color: black;
+                            font-size: 1.2em;
+                        }
+                    }
+                }
+            }
+
+            background-color: red;
+        }
+    }
+
+    li {
+        text-transform: capitalize;
+
+        h3 {
+            color: $white-color;
+        }
+
+        ul {
+            text-transform: capitalize;
+        }
+    }
+}

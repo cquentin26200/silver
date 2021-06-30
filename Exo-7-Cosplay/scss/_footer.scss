@@ -1,0 +1,19 @@
+footer {
+    margin-top: 10px;
+    font-size: 1em;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #232323;
+    background-color: #232323;
+    color: white;
+    line-height: 5px;
+
+    img {
+        width: 7%;
+        padding-top: 20px;
+    }
+    span {
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,18 @@
+main {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+    .gallery {
+        h3 {
+            color: black;
+        }
+    }
+    h1 {
+        text-align: center;
+    }
+    img {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 10px;}
+}
